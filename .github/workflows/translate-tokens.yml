@@ -1,0 +1,50 @@
+name: Translate Design Tokens
+
+on:
+  push:
+    # Trigger only when files in the tokens folder are modified
+    paths:
+      - '' 
+      - 'config.js'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: |
+          npm install style-dictionary
+          # Add any custom transforms or plugins here if needed
+
+      - name: Run Style Dictionary
+        run: npx style-dictionary build --config ./config.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push Platform Files
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --global user.name "Design Token Bot"
+          git config --global user.email "Jiahao.Fu@astratech.ae"
+          
+          # Stage all generated files (CSS, Swift, XML)
+          git add build/
+          
+          git commit -m "style: auto-generate platform tokens from figma [skip ci]"
+          git push
