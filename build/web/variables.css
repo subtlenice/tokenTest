@@ -1,0 +1,88 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-goldenrod-100: #fffadb;
+  --color-goldenrod-200: #ffefaf;
+  --color-goldenrod-700: #fbcf23;
+  --color-goldenrod-900: #eec005;
+  --color-goldenrod-950: #9e770c;
+  --numbers-0: 0px;
+  --numbers-1: 4px;
+  --numbers-2: 8px;
+  --numbers-3: 12px;
+  --numbers-4: 16px;
+  --numbers-5: 20px;
+  --numbers-6: 24px;
+  --numbers-7: 28px;
+  --numbers-8: 32px;
+  --numbers-9: 36px;
+  --numbers-10: 40px;
+  --numbers-11: 44px;
+  --numbers-14: 56px;
+  --numbers-16: 64px;
+  --numbers-30: 120px;
+  --numbers-60: 240px;
+  --numbers-999: 999px;
+  --numbers-hair: 1px;
+  --numbers-stroke-2: 2px;
+  --opacity-white-10: rgba(183, 183, 191, 0.1);
+  --opacity-white-20: rgba(183, 183, 191, 0.2);
+  --opacity-white-30: rgba(183, 183, 191, 0.3);
+  --opacity-white-40: rgba(183, 183, 191, 0.4);
+  --opacity-white-50: rgba(183, 183, 191, 0.5);
+  --opacity-white-60: rgba(183, 183, 191, 0.6);
+  --opacity-white-70: rgba(183, 183, 191, 0.7);
+  --opacity-white-80: rgba(183, 183, 191, 0.8);
+  --opacity-white-90: rgba(183, 183, 191, 0.9);
+  --opacity-white-100: #b7b7bf;
+  --opacity-grey-10: rgba(25, 25, 28, 0.1);
+  --opacity-grey-20: rgba(25, 25, 28, 0.2);
+  --opacity-grey-30: rgba(25, 25, 28, 0.3);
+  --opacity-grey-40: rgba(25, 25, 28, 0.4);
+  --opacity-grey-50: rgba(25, 25, 28, 0.5);
+  --opacity-grey-60: rgba(25, 25, 28, 0.6);
+  --opacity-grey-70: rgba(25, 25, 28, 0.7);
+  --opacity-grey-80: rgba(25, 25, 28, 0.8);
+  --opacity-grey-90: rgba(25, 25, 28, 0.9);
+  --opacity-grey-100: #19191c;
+  --opacity-black-10: rgba(5, 5, 5, 0.1);
+  --opacity-black-20: rgba(5, 5, 5, 0.2);
+  --opacity-black-30: rgba(5, 5, 5, 0.3);
+  --opacity-black-40: rgba(5, 5, 5, 0.4);
+  --opacity-black-50: rgba(5, 5, 5, 0.5);
+  --opacity-black-60: rgba(5, 5, 5, 0.6);
+  --opacity-black-70: rgba(5, 5, 5, 0.7);
+  --opacity-black-80: rgba(5, 5, 5, 0.8);
+  --opacity-black-90: rgba(5, 5, 5, 0.9);
+  --opacity-black-100: #050505;
+  --background-neutral-overlay: rgba(25, 25, 28, 0.8);
+  --size-xxs: 16px;
+  --size-xs: 20px;
+  --size-sm: 24px;
+  --size-md: 32px;
+  --size-lg: 40px;
+  --size-xl: 56px;
+  --size-xxl: 64px;
+  --size-xxxl: 120px;
+  --size-xl4: 240px;
+  --corner-radius-999: 999px;
+  --corner-radius-xs: 8px;
+  --corner-radius-sm: 12px;
+  --corner-radius-md: 16px;
+  --corner-radius-lg: 24px; /** Cards or larger continers */
+  --corner-radius-xl: 32px; /** Buttons, search bar */
+  --corner-radius-xxl: 40px; /** Buttons, search bar */
+  --spacing-margin-zero: 0px;
+  --spacing-margin-xxs: 4px;
+  --spacing-margin-xs: 8px; /** Paddings between cards or elements */
+  --spacing-margin-sm: 12px;
+  --spacing-margin-md: 16px;
+  --spacing-margin-lg: 20px; /** Paddings on the edge */
+  --spacing-margin-xl: 24px;
+  --spacing-margin-xxl: 28px;
+  --spacing-margin-xxxl: 32px;
+  --spacing-margin-xxxxl: 36px;
+  --spacing-margin-xxxxxl: 40px;
+}
