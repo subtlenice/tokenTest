@@ -4,7 +4,7 @@ on:
   push:
     # Trigger only when files in the tokens folder are modified
     paths:
-      - '*.json' 
+      - '*.tokens.json' 
       - 'config.js'
 
 permissions:
