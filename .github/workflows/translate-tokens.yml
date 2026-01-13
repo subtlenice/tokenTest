@@ -29,6 +29,9 @@ jobs:
           npm install style-dictionary
           # Add any custom transforms or plugins here if needed
 
+      - name: Verify JSON files exist
+        run: ls *.json
+
       - name: Run Style Dictionary
         run: npx style-dictionary build --config ./config.js
 
