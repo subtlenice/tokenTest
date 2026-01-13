@@ -1,5 +1,6 @@
 {
   "background": {
+    "neutral": {
       "overlay": {
         "$type": "color",
         "$value": "{opacity.grey.80}"
